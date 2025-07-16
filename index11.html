@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript Basics: Strings and Operators</title>
+</head>
+
+<body>
+    <h1>JavaScript Basics</h1>
+
+    <p id="text"></p>
+
+    <h3>Arithmetic Operations:</h3>
+    <p>Addition (5+2): <span id="additionResult"></span></p>
+    <p>Subtraction (5-2): <span id="subtractionResult"></span></p>
+    <p>Multiplication (5*2): <span id="multiplicationResult"></span></p>
+    <p>Division (5/2): <span id="divisionResult"></span></p>
+
+    <script>
+
+        var para1 = "Hello we are using Javascript"
+        var para2 = "It's a powerful language"
+
+        document.getElementById("text").innerHTML = para1 + "<br>" + para2
+
+        var x = 5
+        var y = 2
+
+        var addition = x + y
+        document.getElementById("additionResult").innerHTML = addition
+
+        var subtraction = x - y
+            document.getElementById("subtractionResult").innerHTML = subtraction
+
+        var multiplication = x * y
+        document.getElementById("multiplicationResult").innerHTML = multiplication
+
+        var division = x / y
+        document.getElementById("divisionResult").innerHTML = division
+
+    </script>
+</body>
+</html>
